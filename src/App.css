@@ -1,5 +1,80 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  height: 312px;
+  width: 933px;
+}
+
+.header {
+  width: 933px;
+  height: 85px;
+  padding-top: 15px;
+  /* background-color: pink; */
+}
+
+.imgLogo {
+  width: 200px;
+  height: 40px;
+}
+
+.nav {
+  width: 933px;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  background-color: green;
+}
+
+.buttonsNav {
+  height: 70px;
+  background-color: blue;
+  flex-direction: row;
+  display: flex;
+}
+
+.buttonNavCar {
+  width: 180px;
+  height: 70px;
+  background-color: yellow;
+  flex-direction: row;
+  display: flex;
+}
+
+.buttonNavMotorcycle {
+  width: 60px;
+  height: 70px;
+  /* background-color: gray; */
+}
+
+.areaIcon {
+  width: 55px;
+  height: 50px;
+  /* background-color: indianred; */
+  padding-top: 20px;
+}
+
+.icon {
+  width: 55px;
+  height: 40px;
+}
+
+h3 {
+  font-size: 12px;
+  background-color: blue;
+  margin: 0;
+  margin-top: 10px;
+}
+h1 {
+  font-size: 22px;
+  background-color: red;
+  margin: 0;
 }
 
 .App-logo {
@@ -7,11 +82,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;

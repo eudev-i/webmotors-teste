@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./assets/images/logo.png";
 import car from "./assets/images/car.png";
+import select from "./assets/images/select.png";
 import motorcycle from "./assets/images/motorcycle.png";
 import "./App.css";
 
@@ -14,7 +15,7 @@ function App() {
       <div className="nav">
         <div className="buttonsNav">
           <div className="buttonNavCar">
-            <div className="areaIcon">
+            <div className="areaIconCar">
               <img src={car} className="iconCar" alt="logo" />
             </div>
             <div className="textButtonNav">
@@ -23,7 +24,7 @@ function App() {
             </div>
           </div>
           <div className="buttonNavMotorcycle">
-            <div className="areaIcon">
+            <div className="areaIconMotorcycle">
               <img src={motorcycle} className="iconMotorcycle" alt="logo" />
             </div>
             <div className="textButtonNav">
@@ -83,6 +84,7 @@ function App() {
         </div>
         <div className="line4">
           <div className="containerLeft">
+            <img src={select} className="iconSelect" alt="logo" />
             <label className="labelRed">Busca Avançada</label>
           </div>
           <div className="containerRight">

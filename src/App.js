@@ -1,9 +1,9 @@
 import React from "react";
+import "./App.css";
 import logo from "./assets/images/logo.png";
 import car from "./assets/images/car.png";
 import select from "./assets/images/select.png";
 import motorcycle from "./assets/images/motorcycle.png";
-import "./App.css";
 
 function App() {
   return (
@@ -29,12 +29,13 @@ function App() {
             </div>
             <div className="textButtonNav">
               <h3>COMPRAR</h3>
-              <h1>MOTOS</h1>
+              <h1 className="labelGray">MOTOS</h1>
             </div>
           </div>
         </div>
-        <button className="buttonVenda">Vender meu carro</button>
+        <button className="buttonSale">Vender meu carro</button>
       </div>
+
       <div className="box">
         <div className="line1">
           <label className="containerCheck labelGray">
@@ -48,6 +49,7 @@ function App() {
             <span className="checkmark"></span>
           </label>
         </div>
+
         <div className="line2">
           <div className="location">
             <input
@@ -59,29 +61,31 @@ function App() {
               <option value="0">Opções</option>
             </select>
           </div>
-          <select className="selectPadrao1" name="">
+          <select className="selectLittle" name="">
             <option value="1">Marca: Todas</option>
             <option value="0">Opções</option>
           </select>
-          <select className="selectPadrao1" name="">
+          <select className="selectLittle" name="">
             <option value="1">Modelo: Todos</option>
             <option value="0">Opções</option>
           </select>
         </div>
+
         <div className="line3">
-          <select className="selectPadrao" name="">
+          <select className="selectMedium" name="">
             <option value="1">Ano Desejado</option>
             <option value="0">Opções</option>
           </select>
-          <select className="selectPadrao" name="">
+          <select className="selectMedium" name="">
             <option value="1">Faixa de Preço</option>
             <option value="0">Opções</option>
           </select>
-          <select className="selectAux" name="">
+          <select className="selectBig" name="">
             <option value="1">Versão: Todas</option>
             <option value="0">Opções</option>
           </select>
         </div>
+
         <div className="line4">
           <div className="containerLeft">
             <img src={select} className="iconSelect" alt="logo" />
@@ -89,7 +93,7 @@ function App() {
           </div>
           <div className="containerRight">
             <label className="labelGray">Limpar filtros</label>
-            <button className="buttonOferta">VER OFERTAS</button>
+            <button className="buttonOffer">VER OFERTAS</button>
           </div>
         </div>
       </div>

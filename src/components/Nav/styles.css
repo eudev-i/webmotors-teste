@@ -1,0 +1,89 @@
+.nav {
+  width: 933px;
+  height: 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.buttonsNav {
+  height: 70px;
+  background-color: blue;
+  flex-direction: row;
+  display: flex;
+}
+
+.buttonNavCar {
+  width: 175px;
+  height: 67px;
+  background-color: #e8e8e8;
+  flex-direction: row;
+  display: flex;
+  border-bottom: solid #d93636 3px;
+}
+
+.buttonNavMotorcycle {
+  width: 160px;
+  height: 68px;
+  background-color: #e8e8e8;
+  border-bottom: solid #ccc 2px;
+  flex-direction: row;
+  display: flex;
+}
+
+.areaIconCar {
+  width: 55px;
+  height: 50px;
+  padding-top: 24px;
+  margin-left: 10px;
+}
+
+.areaIconMotorcycle {
+  width: 45px;
+  height: 50px;
+  padding-top: 22px;
+  margin-left: 10px;
+}
+
+.iconCar {
+  width: 50px;
+  height: 40px;
+}
+
+.iconMotorcycle {
+  width: 35px;
+  height: 40px;
+}
+
+.labelGray {
+  color: #a1a1a1;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: Helvetica;
+  margin: 0;
+  margin-top: 15px;
+  color: #a1a1a1;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 22px;
+  margin: 0;
+  color: #d93636;
+}
+
+.buttonSale {
+  width: 180px;
+  height: 40px;
+  border: solid #e8c04f 2px;
+  border-radius: 4px;
+  color: #e8c04f;
+  font-weight: bold;
+}
+
+.buttonSale:hover {
+  cursor: pointer;
+}

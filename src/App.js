@@ -15,7 +15,7 @@ function App() {
         <div className="buttonsNav">
           <div className="buttonNavCar">
             <div className="areaIcon">
-              <img src={car} className="icon" alt="logo" />
+              <img src={car} className="iconCar" alt="logo" />
             </div>
             <div className="textButtonNav">
               <h3>COMPRAR</h3>
@@ -24,15 +24,72 @@ function App() {
           </div>
           <div className="buttonNavMotorcycle">
             <div className="areaIcon">
-              <img src={motorcycle} className="icon" alt="logo" />
+              <img src={motorcycle} className="iconMotorcycle" alt="logo" />
             </div>
             <div className="textButtonNav">
               <h3>COMPRAR</h3>
-              <h1>CARROS</h1>
+              <h1>MOTOS</h1>
             </div>
           </div>
         </div>
-        <input></input>
+        <button className="buttonVenda">Vender meu carro</button>
+      </div>
+      <div className="box">
+        <div className="line1">
+          <label className="containerCheck labelGray">
+            Novos
+            <input type="checkbox" checked="checked" />
+            <span className="checkmark"></span>
+          </label>
+          <label className="containerCheck labelGray">
+            Usados
+            <input type="checkbox" />
+            <span className="checkmark"></span>
+          </label>
+        </div>
+        <div className="line2">
+          <div className="location">
+            <input
+              className="inputLocation"
+              value="Onde: São Paulo - SP"
+            ></input>
+            <select className="selectLocation" name="">
+              <option value="1">Raio: 100km</option>
+              <option value="0">Opções</option>
+            </select>
+          </div>
+          <select className="selectPadrao1" name="">
+            <option value="1">Marca: Todas</option>
+            <option value="0">Opções</option>
+          </select>
+          <select className="selectPadrao1" name="">
+            <option value="1">Modelo: Todos</option>
+            <option value="0">Opções</option>
+          </select>
+        </div>
+        <div className="line3">
+          <select className="selectPadrao" name="">
+            <option value="1">Ano Desejado</option>
+            <option value="0">Opções</option>
+          </select>
+          <select className="selectPadrao" name="">
+            <option value="1">Faixa de Preço</option>
+            <option value="0">Opções</option>
+          </select>
+          <select className="selectAux" name="">
+            <option value="1">Versão: Todas</option>
+            <option value="0">Opções</option>
+          </select>
+        </div>
+        <div className="line4">
+          <div className="containerLeft">
+            <label className="labelRed">Busca Avançada</label>
+          </div>
+          <div className="containerRight">
+            <label className="labelGray">Limpar filtros</label>
+            <button className="buttonOferta">VER OFERTAS</button>
+          </div>
+        </div>
       </div>
     </div>
   );

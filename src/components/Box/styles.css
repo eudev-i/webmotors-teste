@@ -1,6 +1,7 @@
 .box {
   width: 933px;
-  height: 312px;
+  max-width: 933px;
+  max-height: 312px;
   background-color: #ffffff;
   align-items: center;
   display: flex;
@@ -216,6 +217,20 @@
 
 .labelGray {
   color: #a1a1a1;
+}
+
+.container-vehicles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.container-vehicle img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pointer:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {

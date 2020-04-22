@@ -9,7 +9,6 @@
 
 .buttonsNav {
   height: 70px;
-  background-color: blue;
   flex-direction: row;
   display: flex;
 }
@@ -86,4 +85,58 @@ h1 {
 
 .buttonSale:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    width: 360px;
+  }
+
+  .buttonNavCar {
+    width: 100px;
+    height: 50px;
+  }
+
+  .buttonNavMotorcycle {
+    width: 90px;
+    height: 51px;
+  }
+
+  .areaIconCar {
+    width: 25px;
+    padding-top: 35px;
+    margin-left: 0px;
+  }
+
+  .areaIconMotorcycle {
+    width: 45px;
+    padding-top: 30px;
+    margin-left: 10px;
+  }
+
+  .iconCar {
+    width: 25px;
+    height: 20px;
+  }
+
+  .iconMotorcycle {
+    width: 25px;
+    height: 25px;
+  }
+
+  h3 {
+    font-size: 10px;
+    margin-top: 22px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .buttonSale {
+    width: 115px;
+    height: 25px;
+    border: solid #e8c04f 1px;
+    font-size: 11px;
+  }
 }

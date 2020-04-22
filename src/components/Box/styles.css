@@ -217,3 +217,70 @@
 .labelGray {
   color: #a1a1a1;
 }
+
+@media screen and (max-width: 500px) {
+  .box {
+    max-width: 500px;
+    height: 450px;
+  }
+
+  .line1 {
+    width: 350px;
+    height: 10px;
+    padding-top: 15px;
+  }
+
+  .line2 {
+    width: 350px;
+    height: 200px;
+    padding-top: 0px;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .line3 {
+    width: 350px;
+    height: 160px;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .line4 {
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .location {
+    width: 100%;
+    margin-bottom: -25px;
+  }
+
+  .selectLittle {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .selectMedium {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .selectBig {
+    width: 100%;
+  }
+
+  .containerRight {
+    width: 350px;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 15px;
+  }
+
+  .buttonOffer {
+    width: 200px;
+    height: 40px;
+    font-size: 5;
+  }
+}

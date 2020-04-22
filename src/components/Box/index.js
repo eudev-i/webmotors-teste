@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import select from "../../assets/images/select.png";
+import ListMake from "./ListMake";
 
 function Box() {
   return (
@@ -26,10 +27,7 @@ function Box() {
             <option value="0">Opções</option>
           </select>
         </div>
-        <select className="selectLittle" name="">
-          <option value="1">Marca: Todas</option>
-          <option value="0">Opções</option>
-        </select>
+        <ListMake />
         <select className="selectLittle" name="">
           <option value="1">Modelo: Todos</option>
           <option value="0">Opções</option>
@@ -45,8 +43,8 @@ function Box() {
           <option value="1">Faixa de Preço</option>
           <option value="0">Opções</option>
         </select>
-        <select className="selectBig" name="">
-          <option value="1">Versão: Todas</option>
+        <select className="selectLittle" name="">
+          <option value="1">Modelo: Todos</option>
           <option value="0">Opções</option>
         </select>
       </div>

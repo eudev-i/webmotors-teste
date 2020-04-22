@@ -8,3 +8,17 @@
   width: 200px;
   height: 40px;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 150px;
+    height: 45px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .imgLogo {
+    width: 150px;
+    height: 30px;
+  }
+}
